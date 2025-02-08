@@ -144,7 +144,7 @@
 - Replace with:
 
   <Valve className="org.apache.catalina.valves.RemoteAddrValve"
-        allow="192\.168\.1\.10" />
+        allow="192\.168\.1\.10" />   # check your ip or you can use for all ip = allow=".*" />
   
 - Save and quit (`:wq!`).
 
